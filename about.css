@@ -1,8 +1,6 @@
 body {
-	font-family: 'Josefin Sans', 'Lora', 'Poiret One', 'Lobster', serif;
-	 background-image: url("https://static.pexels.com/photos/5317/food-salad-restaurant-person-large.jpg (185KB)
-
-");
+	font-family: 'Oswald', 'Montserrat', 'Lato' serif;
+	 background-image: url("https://static.pexels.com/photos/5317/food-salad-restaurant-person-large.jpg");
     no-repeat center center fixed; 
      -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -13,5 +11,29 @@ body {
 
 
  .box {
-
+ 	width: 50%;
+ 	background-color: #f3f1ec;
+ 	opacity: 0.8;
+ 	margin: 0 0 0 25%;
+ 	padding: 20px;
+ 	border: solid;
+ 	
  }
+
+.nav >ul >li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    word-spacing: 20px;
+    background: #f3f1ec;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: -10px -10px 0 -10px;
+}
