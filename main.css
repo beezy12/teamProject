@@ -4,13 +4,92 @@
 body {
 	background-image: url("https://static.pexels.com/photos/5317/food-salad-restaurant-person-large.jpg");
 	no-repeat center center fixed; 
-	 -webkit-background-size: cover;
-	 -moz-background-size: cover;
-	 -o-background-size: cover;
-	 background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Oswald', 'Montserrat', 'Lato' serif;
 }
+
+article {
+	margin: 100px 100px;
+}
+
 /*////////////////NAVIGATION//////////////*/
 
 
+.nav >ul >li {
+    list-style-type: none;
+    display: inline-block;
+}
 
-.article-arrange
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    word-spacing: 20px;
+    background: #f3f1ec ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: -10px -10px 0 -10px;
+}
+
+
+
+/*////////////////ARTICLE//////////////*/
+
+article {
+	margin: 0 auto;
+}
+.first-article {
+	height: 300px;
+	width: 600px;
+	float: left;
+	background-color: #f3f1ec;
+	padding: 40px;
+
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  opacity: 0.8;
+
+}
+.second-article {
+  height: 300px;
+  width: 300px;
+  float: left;
+  background-color: #f3f1ec;
+  margin: 20px;
+  padding: 40px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  opacity: 0.8;
+}
+
+.third-article {
+	height: 200px;
+	width: 300px;
+  clear: both;
+  float: left;
+  background-color: #f3f1ec;
+  margin: 20px;
+  padding: 40px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
