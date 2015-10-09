@@ -1,6 +1,8 @@
 body {
+
 	font-family: 'Oswald', 'Montserrat', 'Lato' serif;
 	 background-image: url("https://static.pexels.com/photos/5317/food-salad-restaurant-person-large.jpg");
+
     no-repeat center center fixed; 
      -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -11,6 +13,7 @@ body {
 
 
  .box {
+
  	width: 50%;
  	background-color: #f3f1ec;
  	opacity: 0.8;
@@ -37,3 +40,4 @@ a {
     padding-bottom: 5px;
     margin: -10px -10px 0 -10px;
 }
+
