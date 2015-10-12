@@ -21,7 +21,7 @@ body {
 
 .nav img {
     float: left;
-    margin: 5px 0 5px 30px;
+    margin: 5px 0 5px 100px;
 }
 
 .nav ul {
@@ -47,7 +47,7 @@ a {
     font-size: 1.8em;
 }
 
- .box {
+.box {
     max-width: 50%;
     background-color: #f3f1ec;
     opacity: 0.8;
@@ -55,6 +55,9 @@ a {
     padding: 20px;
     border: solid;
     float: left;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .start {
@@ -83,6 +86,9 @@ a {
     opacity: 0.8;
     margin: 5px 0 0 80px;
     font-size: 1.1em;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 /* .circles {
