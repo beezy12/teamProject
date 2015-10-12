@@ -1,6 +1,4 @@
 body {
-    margin: 0;
-    
     font-family: 'Oswald', 'Montserrat', 'Lato' serif;
     background-image: url("https://static.pexels.com/photos/5317/food-salad-restaurant-person-large.jpg");
     no-repeat center center fixed; 
@@ -41,10 +39,24 @@ a {
     padding-right: 20px;
 }
 
-.here {
-    color: red;
-    text-decoration: underline;
-    font-size: 1.8em;
+.nav >ul >li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav {
+    font-family: 'Oswald', 'Montserrat', 'Lato' serif;
+    word-spacing: 20px;
+    background: #f3f1ec ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: -10px -10px 0 -10px;
 }
 
 .box {
@@ -67,6 +79,15 @@ a {
 .loc {
     margin: 10px 0 0 270px;
 }
+
+.start {
+    font-size: 2.4em;
+}
+
+.loc {
+    margin: 10px 0 0 270px;
+}
+
 .where {
     font-size: 1.4em;
     font-weight: 600;
@@ -108,6 +129,7 @@ a {
 .circles h3 {
     text-align: center;
 }
+
 
 
 
