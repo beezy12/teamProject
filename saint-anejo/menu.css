@@ -1,0 +1,167 @@
+/* Body Styling */
+
+body {
+	background: url(https://static.pexels.com/photos/5317/food-salad-restaurant-person-large.jpg)no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* Navigation */
+
+.nav >ul >li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.nav {
+	font-family: 'Oswald', 'Montserrat', 'Lato' serif;
+	word-spacing: 20px;
+	background: #f3f1ec;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: -10px -10px 0 -10px;
+}
+
+/* Menu items styling */
+
+#for-the-table {
+	font-family: 'Oswald', 'Montserrat', 'Lato' serif;
+	text-align: center;
+	margin: 10% auto;
+	background: #f3f1ec;
+	width: 60%;
+	border: solid black;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	opacity: 0.8;
+}
+
+#for-the-table >h1 {
+	text-align: left;
+	padding-left: 25px;
+	border-bottom: 1px solid black;
+}
+
+#killer-quesadillas {
+	font-family: 'Oswald', 'Montserrat', 'Lato' serif;
+	text-align: center;
+	margin: 10% auto;
+	background: #f3f1ec;
+	width: 60%;
+	border: solid black;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	opacity: 0.8;
+}
+
+#killer-quesadillas >h1 {
+	text-align: left;
+	padding-left: 25px;	
+	border-bottom: 1px solid black;
+}
+
+#tacos {
+	font-family: 'Oswald', 'Montserrat', 'Lato' serif;
+	text-align: center;
+	margin: 10% auto;
+	background: #f3f1ec;
+	width: 60%;
+	border: solid black;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	opacity: 0.8;
+}
+
+#tacos >h1 {
+	text-align: left;
+	padding-left: 25px;
+	border-bottom: 1px solid black;
+}
+
+#nachos {
+	font-family: 'Oswald', 'Montserrat', 'Lato' serif;
+	text-align: center;
+	margin: 10% auto;
+	background: #f3f1ec;
+	width: 60%;
+	border: solid black;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	opacity: 0.8;
+}
+
+#nachos >h1 {
+	text-align: left;
+	padding-left: 25px;
+	border-bottom: 1px solid black;
+}
+
+#ensaladas {
+	font-family: 'Oswald', 'Montserrat', 'Lato' serif;
+	text-align: center;
+	margin: 10% auto;
+	background: #f3f1ec;
+	width: 60%;
+	border: solid black;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	opacity: 0.8;
+}
+
+#ensaladas >h1 {
+	text-align: left;
+	padding-left: 25px;
+	border-bottom: 1px solid black;
+}
+
+#principals {
+	font-family: 'Oswald', 'Montserrat', 'Lato' serif;
+	text-align: center;
+	margin: 10% auto;
+	background: #f3f1ec;
+	width: 60%;
+	border: solid black;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	opacity: 0.8;
+}
+
+#principals >h1 {
+	text-align: left;
+	padding-left: 25px;
+	border-bottom: 1px solid black;
+}
+
+#dessert {
+	font-family: 'Oswald', 'Montserrat', 'Lato' serif;
+	text-align: center;
+	margin: 10% auto;
+	background: #f3f1ec;
+	width: 60%;
+	border: solid black;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	opacity: 0.8;
+}
+
+#dessert >h1 {
+	text-align: left;
+	padding-left: 25px;
+	border-bottom: 1px solid black;
+}
