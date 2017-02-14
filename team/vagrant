@@ -8,11 +8,10 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	font-family: 'Oswald', 'Montserrat', 'Lato' serif;
 }
 
-h1{
-	font-size: 28px;
-}
+
 
 /*////////////////NAVIGATION//////////////*/
 
@@ -25,84 +24,61 @@ h1{
 
 a {
     text-decoration: none;
-    color: inherit;
-    font-family: 'Oswald', 'Montserrat', 'Lato', serif;
 }
 
 .nav {
     word-spacing: 20px;
-    background: #f3f1ec ;
+    background: #f3f1ec;
     padding-top: 5px;
     padding-bottom: 5px;
     margin: -10px -10px 0 -10px;
-    word-spacing: 20px;
 }
 
 
 
 /*////////////////ARTICLE//////////////*/
 
+
+
 .first-article {
+	height: 200px;
+  width: 200px;
+  background-color: #f3f1ec;
+  margin: 5px;
+  border: 3px solid black;
 
-	height: 300px;
-	width: 600px;
-	float: left;
-	background-color: #f3f1ec;
-	margin: 30px 0 20px 40px;
-
-	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   opacity: 0.8;
-  border: solid;
-
-  font-family: 'Oswald', 'Montserrat', 'Lato' serif;
-  
-  padding: 30px;
-
 }
 
-
-.both {
-  float: left;
-
-}
-
-.hours {
+/* .second-article {
   height: 200px;
-  width: 250px;
-
-  background-color: #f3f1ec;
-  margin: 30px 0 20px 40px;
-  padding: 30px;
-  border: solid;
-  font-family: 'Oswald', 'Montserrat', 'Lato' serif;
- 
+  width: 200px;
+  border: 2px solid black;  
   
+} */
+
+.third-article {
+	height: 480px;
+	width: 600px;
+  background-color: #f3f1ec;
+  border: 3px solid black; 
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   opacity: 0.8;
- 
-
+  float: left;
+  
 }
 
-.location {
-
-  width: 250px;
-  background-color: #f3f1ec;
-  margin: 30px 0 20px 40px;
-  padding: 30px;
-  border: solid;
-  font-family: 'Oswald', 'Montserrat', 'Lato' serif;
- 
-
- 
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  opacity: 0.8;
+.first-two {
   
+   
+   height: 480px;
+  
+  float: left;
 }
 
 
